@@ -16,7 +16,7 @@ def is_even(number):
 
 def test(number):
   """This function checks if a number is even and returns True or False."""
-  if number % 2 == 0:
+  if number % 2 = 0:
     return True
   else:
     return False

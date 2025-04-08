@@ -14,6 +14,13 @@ def is_even(number):
   else:
     return False
 
+def is_odd(number):
+  """This function checks if a number is even and returns True or False."""
+  if number % 2 != 0:
+    return True
+  else:
+    return False
+
 # Example of calling the functions within the same file
 if __name__ == "__main__":
   greet("Alice")
